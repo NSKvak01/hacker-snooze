@@ -1,0 +1,131 @@
+#logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: rgba(0, 0, 0, 0.698); */
+    background-image: url("https://www.xmple.com/wallpaper/pink-violet-gradient-linear-1920x1080-c2-8620ce-c73766-a-315-f-14.svg");
+    color: white;
+}
+
+#menu-head{
+    display: flex;
+    padding-right: 40px;
+}
+.me-2{
+    width:400px;
+    border-color: rgba(197, 54, 104, 0.513);
+}
+
+.me-2:focus{
+    border: 3px solid rgba(224, 48, 110, 0.561);;
+}
+
+#logo-1{
+    margin-bottom: 0;
+}
+#logo-2{
+    margin-top: 0;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menu-head{
+    margin:15px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    border-color: rgba(197, 54, 104, 0.513);
+    color: rgb(197, 54, 104);
+}
+.btn:hover{
+    background-color: rgb(197, 54, 104);
+}
+
+.btn:active{
+    border: 5px solid rgb(197, 54, 104) ;
+}
+
+.foot{
+    margin: 10px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.parent{
+    font-size: 24px;
+    margin-left: 150px;
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.child{
+    font-size: 16px;
+    color: grey;
+}
+
+a:hover, li:hover{
+    color: black
+}
+
+a{
+color: rgb(199,55,102)
+}
+
+li{
+    color: rgb(207, 24, 85)
+}
+
+@media only screen and (max-width: 700px) {
+    #main {
+        margin-right: 150px;      
+    }
+    #header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+    }
+    .menu-head{
+        display:none;
+    }
+
+    .me-2{
+        width:200px;
+    }
+}
+
+#score{
+    color:white;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-color: white;
+}
+
