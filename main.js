@@ -58,10 +58,10 @@ parent.appendChild(ol)
                             li.style.marginBottom='10px'
                             ol.style.color='rgb(185,50,124)'
                         }
-                        const scoreButton = document.querySelector('#score')
-                        scoreButton.addEventListener('click', ()=>{
+                        // const scoreButton = document.querySelector('#score')
+                        // scoreButton.addEventListener('click', ()=>{
                             
-                        }) 
+                        // }) 
                     })
                 }
    
